@@ -8,9 +8,18 @@ h1 {
 
 nav {
     background-color: #105aff;
-    box-shadow: 0 5px 5px 1px rgba(0,0,0, 0.3);
+    box-shadow: 0 5px 7px 1px rgba(0,0,0, 0.3);
 }
 
-li {
+li, a{
     color: #fff;
+}
+
+a:hover {
+    color: #105aff;
+}
+
+footer {
+    background-color: #00dde2;
+    box-shadow: 0 5px 5px 7px rgba(0,0,0, 0.3);
 }
