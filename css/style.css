@@ -1,0 +1,16 @@
+body {
+    font-family: 'Comfortaa', cursive !important;
+}
+
+h1 {
+    color:red;
+}
+
+nav {
+    background-color: #105aff;
+    box-shadow: 0 5px 5px 1px rgba(0,0,0, 0.3);
+}
+
+li {
+    color: #fff;
+}
