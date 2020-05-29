@@ -1,25 +1,60 @@
 body {
     font-family: 'Comfortaa', cursive !important;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #7ad7ff;
+    color: #001f3f;
 }
 
-h1 {
-    color:red;
+a {
+    color: #001f3f;
 }
 
 nav {
-    background-color: #105aff;
+    background: #7ad7ff;
     box-shadow: 0 5px 7px 1px rgba(0,0,0, 0.3);
+    
 }
 
-li, a{
-    color: #fff;
+.navbar {
+    padding: 10px 50px;
 }
 
-a:hover {
-    color: #105aff;
+.nav-link {
+    padding-left: 40px!important;
+}
+
+i {
+    font-size: 22px;
 }
 
 footer {
-    background-color: #00dde2;
-    box-shadow: 0 5px 5px 7px rgba(0,0,0, 0.3);
+    padding: 10px 0;
+    font-size: 17px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// CANVAS */
+
+#tab {
+    margin: 0 0 50px 0;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// PLAYERS */
+
+#players {
+    padding: 15px;
+    border-radius: 50px;
+    background: #7ad7ff;
+    box-shadow:  20px 20px 60px #68b7d9, 
+             -20px -20px 60px #8cf7ff;
+}
+
+canvas {
+    padding: 10px;
+    border-radius: 50px;
+    background: #7ad7ff;
+    box-shadow:  20px 20px 60px #68b7d9, 
+                -20px -20px 60px #8cf7ff;
 }
