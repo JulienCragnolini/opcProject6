@@ -15,8 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <script src="js/main.js" defer></script>
-    <script src="js/rpg.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
+
     <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap" rel="stylesheet"> <!--  Typographie Google -->
@@ -25,6 +25,7 @@
     <link rel="icon" type="image/png" href="img/JCFoncer.svg"/>
 </head>
 <body>
+
     <header>
         <nav class="navbar navbar-expand-md  fixed-top">
             <a class="navbar-brand" href="#">
@@ -50,18 +51,29 @@
     </header>
     
     <div class="container">
-        <!-- <div class="row justify-content-md-center">
-            <h1 class="col-md-9"><b>Projet 6 | Créez un jeu de plateau tour par tour en JS</b></h1>
-        </div> -->
         <div id="tab" class="row">
-            <canvas id="gameGrid" width="600" height="600" class="col-md-8"></canvas>
-            <div class="col-md-1"></div>
-            <div id="players" class="col-md-3"><h3><b>Projet 6<br>Créez un jeu de plateau tour par tour en JS</b><hr></h3></div>
+            <canvas id="gameGrid" width="600" height="600" class="col-lg-7 my-5"></canvas>
+            <div id="players" class="col-lg-3 offset-lg-1 my-5">
+                <h3><b>Projet 6</b><br>Créez un jeu de plateau tour par tour en JS</h3>
+                <hr>
+                <h5>Joueur 1 :</h5>
+                <p>PDV : <span class="pv1"></span></p>
+                <p>PM : <span class="pm1"></span></p>
+                <button>Attaquer</button>
+                <button>Défendre</button>
+                <hr>
+                <h5>Joueur 2 :</h5>
+                <p>PDV : <span class="pv2"></span></p>
+                <p>PM : <span class="pm2"></span></p>
+                <button>Attaquer</button>
+                <button>Défendre</button>
+            </div>
         </div>
     </div>
+    
 
     <footer class="footer">
-        <div class="container">
+        <div class="container p-3">
             <ul class="nav justify-content-center">
                 <li id="ft" class="nav-item">© 2020 Julien Cragnolini <img src="img/JCFoncer.svg" width="40" height="20" class="d-inline-block align-top" alt=""></li>
             </ul>

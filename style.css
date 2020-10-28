@@ -58,3 +58,18 @@ canvas {
     box-shadow:  20px 20px 60px #68b7d9, 
                 -20px -20px 60px #8cf7ff;
 }
+
+button {
+    padding: 10px;
+    border-radius: 50px;
+    background: #7ad7ff;
+    box-shadow:  20px 20px 60px #68b7d9, 
+                -20px -20px 60px #8cf7ff;
+}
+button:hover {
+    padding: 10px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #6ec2e6, #83e6ff);
+    box-shadow:  20px 20px 60px #68b7d9, 
+             -20px -20px 60px #8cf7ff;
+}
