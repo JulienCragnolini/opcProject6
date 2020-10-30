@@ -1,8 +1,8 @@
 export default class Player {
-    constructor(pseudo, weapon) {
+    constructor(pseudo, pm, weapon) {
         this.pseudo = pseudo;
         this.hp = 100;
-        this.pm = 3;
+        this.pm = pm;
         this.weapon = weapon;
         this.position = []
     }
